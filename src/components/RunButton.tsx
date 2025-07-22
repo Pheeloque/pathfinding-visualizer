@@ -4,7 +4,6 @@ import { BsFillPlayFill } from "react-icons/bs";
 function RunButton({
   handleRunVisualizer,
   isDisabled,
-  isGraphVisualized,
 }: {
   handleRunVisualizer: MouseEventHandler<HTMLButtonElement>;
   isDisabled: boolean;
